@@ -11,7 +11,7 @@ Welcome to the Tic Tac Toe game! This is a simple implementation of the classic 
 
 ## Live Demo
 
-You can play the game live [here](your_github_pages_link).
+You can play the game live [here](https://kashish-aswani.github.io/Tic-Tac-Toe-Game/).
 
 ## How to Play
 
