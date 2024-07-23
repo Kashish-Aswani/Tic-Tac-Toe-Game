@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        body{
+            background-color: #090C02;
+            color: ivory;
+        }
+        .choice{
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            background-color:#BBC5AA;
+            border-radius: 10px;
+            padding: 7px;
+            text-transform: capitalize;
+            cursor: pointer;
+            box-shadow: none;
+            border: 2px solid black;
+            font-size: 20px;
+            color: #090C02;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        button:hover{
+            background-color: aliceblue;
+            transform: scale(1.05);
+        }
+        h1{
+            font-size: 70px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        p{
+            font-size: 20px;
+            padding: 20px;
+            margin-bottom: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to Tic Tac Toe!</h1>
+    <p>Select your mode and challenge yourself or a friend in this classic game.</p>
+
+    <div class="choice">
+        <button id="friend" title="Play Tic Tac Toe with a friend" >Play with a friend</button>
+        <button id="computer" title="Play Tic Tac Toe with computer">Play with computer</button>
+    </div>
+    <script>
+        let frnd = document.getElementById("friend")
+        let comp = document.getElementById("computer")
+
+        frnd.addEventListener("click",()=>{
+            window.location.href = "./main1.html"
+        })
+
+        comp.addEventListener("click", ()=>{
+            window.location.href = "./main2.html"
+        })
+    </script>
+</body>
+</html>
