@@ -5,7 +5,7 @@ Welcome to the Tic Tac Toe game! This is a simple implementation of the classic 
 ## Features
 
 - Two game modes: Play against a friend or play against the computer
-- Computer uses a defensive AI strategy in single-player mode
+- Computer uses a defensive strategy in single-player mode
 - Reset the game to play again
 - Visual indication of the winner or if the game ends in a tie
 
